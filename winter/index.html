@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Solstice Celebrations Around the World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js.script.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: #0d960d;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: rgba(30, 60, 114, 0.9);
+            padding: 1em 2em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #main-header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffdd57;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 4px;
+        }
+
+        nav a:hover, nav a.active {
+            color: #ffffff;
+            background-color: #ffdd57;
+        }
+
+        section {
+            padding: 3em 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            border-bottom: 2px solid #ffdd57;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+            font-size: 2rem;
+        }
+
+        ul {
+            padding-left: 1.5em;
+            text-align: left;
+        }
+
+        ul li {
+            margin-bottom: 0.5em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(30, 60, 114, 0.9);
+            padding: 1.5em;
+            font-size: 0.9rem;
+        }
+
+        #footer-nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        #footer-nav a {
+            text-decoration: none;
+            color: #ffdd57;
+            transition: color 0.3s;
+        }
+
+        #footer-nav a:hover {
+            color: #951919;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header, footer {
+                text-align: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #main-header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Snow Animation */
+        .snowflake {
+            position: absolute;
+            top: -20px;
+            background: #fff;
+            border-radius: 100%;
+            opacity: 0.9;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+
+        .cloud {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 100px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 100px 50px 0 -30px rgba(255, 255, 255, 0.9);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Celebrating the Winter Solstice</h1>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#science">The Science</a></li>
+                <li><a href="#hemispheres">Across Hemispheres</a></li>
+                <li><a href="#celebrations">Global Celebrations</a></li>
+                <li><a href="#traditions">Traditions</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+<section>
+<section id="introduction">
+        <h2>Introduction to the Winter Solstice</h2>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.214cCzIpGQr9qKytGu8legHaDt&pid=Api&P=0&h=180" alt="Winter Solstice Introduction">
+        <p>The winter solstice is a significant astronomical event that occurs when the Earth's axial tilt is farthest from the Sun, resulting in the shortest day and longest night of the year. This event has been observed for millennia, inspiring various cultural, spiritual, and scientific practices around the world.</p>
+        <p>For ancient civilizations, the solstice marked a pivotal moment in the annual cycle, symbolizing the rebirth of the Sun. From the intricate alignments of Stonehenge to modern-day festivals, the winter solstice continues to be a source of inspiration and celebration, connecting humanity to the rhythms of the cosmos.</p>
+        <p>It also represents a turning point, heralding the gradual return of longer days and the promise of renewed life in spring. This astronomical milestone has influenced cultures, calendars, and rituals globally, shaping our understanding of time and nature.</p>
+</section>
+    
+<section id="science">
+        <h2>The Science Behind the Solstice</h2>
+        <img src="https://static.vecteezy.com/system/resources/previews/022/006/638/non_2x/science-background-illustration-scientific-design-flasks-glass-and-chemistry-physics-elements-generative-ai-photo.jpeg" alt="Science of Winter Solstice">
+        <p>The winter solstice occurs due to the Earth's axial tilt of approximately 23.5 degrees, which affects the distribution of sunlight across the planet. As the Earth orbits the Sun, this tilt causes the Sun's apparent position in the sky to shift over the year.</p>
+        <p>On the solstice day:</p>
+        <ul>
+            <li>The Sun reaches its lowest elevation at noon in the sky for observers in the hemisphere experiencing winter.</li>
+            <li>The Arctic Circle plunges into 24 hours of darkness, while the Antarctic Circle experiences 24 hours of daylight.</li>
+            <li>The word "solstice" derives from the Latin words <i>sol</i> (Sun) and <i>sistere</i> (to stand still), reflecting the Sun's momentary pause in its apparent journey before reversing direction.</li>
+        </ul>
+        <p>Ancient observers meticulously tracked these changes, creating calendars and monumental structures to mark this celestial event. The solstice is also a reminder of Earth's dynamic relationship with the Sun, which governs seasons and climates.</p>
+</section>
+    
+<section id="hemispheres">
+        <h2>Solstice Across Hemispheres</h2>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.MwU6FBQY4Y2aqVWrixuq9AHaFz&pid=Api&P=0&h=180" alt="Hemispheres of Winter Solstice">
+        <article id="northern-hemisphere">
+            <h3>Northern Hemisphere</h3>
+            <p>The winter solstice typically occurs around December 21st or 22nd. It signals the start of winter and is associated with colder weather and longer nights. Festivals like Christmas, Hanukkah, and Yule have their roots in ancient solstice celebrations.</p>
+            <p>Many northern traditions celebrate the "return of the light," emphasizing hope, warmth, and community during the darkest time of the year. This symbolism has carried forward into modern holiday practices.</p>
+        </article>
+        <article id="southern-hemisphere">
+            <h3>Southern Hemisphere</h3>
+            <p>The winter solstice happens around June 20th or 21st. Countries like Australia, South Africa, and parts of South America celebrate the colder season during this time. Indigenous cultures, such as the Mapuche in Chile and Argentina, observe traditional rituals honoring the season.</p>
+            <p>For these regions, the solstice brings unique cultural expressions tied to local ecosystems and histories, offering a perspective on seasonal diversity across the globe.</p>
+        </article>
+</section>
+    
+<section id="celebrations">
+        <h2>Global Celebrations of the Winter Solstice</h2>
+        <img src="https://www.gannett-cdn.com/presto/2018/12/28/USAT/f4263513-1723-4bf8-bdd7-3644e8648f53-Getty_nye.jpg?crop=2299,1293,x0,y0&width=3200&height=1680&fit=bounds" alt="Global Winter Solstice Celebrations">
+        <article id="newgrange">
+            <h3>Newgrange, Ireland</h3>
+            <p>This ancient Neolithic monument is designed to align with the rising Sun on the winter solstice. A narrow beam of light illuminates its central chamber, symbolizing hope and renewal. The annual event attracts visitors worldwide, blending historical reverence with contemporary awe.</p>
+        </article>
+        <article id="dongzhi">
+            <h3>Dongzhi Festival, China</h3>
+            <p>Celebrated on the solstice, this festival emphasizes family reunions and the eating of warming foods like tangyuan (sweet glutinous rice balls). It symbolizes the arrival of longer days and embodies the theme of balance and harmony in traditional Chinese culture.</p>
+        </article>
+        <article id="yule">
+            <h3>Yule, Northern Europe</h3>
+            <p>A Pagan tradition that honors the return of the Sun, Yule is celebrated with feasting, bonfires, and decorating homes with evergreen plants, which symbolize eternal life. Modern Christmas traditions, such as the Yule log, find their origins in these ancient practices.</p>
+        </article>
+        <article id="soyaluna">
+            <h3>Soyaluna, Hopi Tribe</h3>
+            <p>Among the Hopi people of North America, Soyaluna is a sacred solstice ceremony that includes prayers, dancing, and rituals to honor the Sun's renewal. It seeks to harmonize communities and nature while inviting blessings for the new cycle.</p>
+        </article>
+</section>
+    
+    <section id="traditions">
+        <h2>Common Solstice Traditions</h2>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.p48C2BJU0fE7OtQcX6SyyQHaE7&pid=Api&P=0&h=180" alt="Winter Solstice Traditions">
+        <ul>
+            <li><strong>Lighting Fires and Candles:</strong> Fires symbolize the triumph of light over darkness.</li>
+            <li><strong>Feasting:</strong> Traditional feasts bring people together to celebrate community and abundance.</li>
+            <li><strong>Decorating with Evergreen Plants:</strong> Plants like holly, mistletoe, and fir trees are used to symbolize resilience and eternal life.</li>
+            <li><strong>Reflecting and Setting Intentions:</strong> The solstice is a time for introspection, meditation, and goal-setting for the coming year.</li>
+            <li><strong>Music and Dance:</strong> Many cultures incorporate music and dance into solstice celebrations, reinforcing unity and joy.</li>
+        </ul>
+</section>
+
+<section id="conclusion">
+        <h2>Conclusion</h2>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.u-vomOyjzhndZw6iypuQugHaE7&pid=Api&P=0&h=180" alt="Winter Solstice Conclusion">
+        <p>The winter solstice is a profound reminder of humanity's enduring connection to the cosmos. Across millennia and continents, it has inspired rituals, celebrations, and a deep appreciation for the cycles of nature. As we honor this celestial milestone, we also embrace the universal themes of renewal, hope, and light returning to our lives.</p>
+        <p>Whether through ancient observances or modern traditions, the solstice invites us to reflect on the past, celebrate the present, and look forward to the future with optimism and gratitude.</p>
+</section>
+
+    <footer id="main-footer">
+        <p>&copy; 2024 Winter Solstice Celebrations</p>
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="#main-header">Back to Top</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        // Smooth scroll and active link highlighting
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            document.querySelectorAll('section').forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Snowflake Generator
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            const size = Math.random() * 10 + 5 + 'px';
+
+            snowflake.classList.add('snowflake');
+            snowflake.style.left = Math.random() * 100 + 'vw';
+            snowflake.style.width = size;
+            snowflake.style.height = size;
+            snowflake.style.animationDuration = Math.random() * 1.5 + 0.5 + 's';
+
+            document.body.appendChild(snowflake);
+
+            setTimeout(() => {
+                snowflake.remove();
+            }, 1500);
+        }
+
+        setInterval(createSnowflake, 100);
+
+        // Cloud Animation
+        function createCloud() {
+            const cloud = document.createElement('div');
+            cloud.classList.add('cloud');
+
+            document.body.appendChild(cloud);
+            setTimeout(() => {
+                cloud.remove();
+            }, 15000);
+        }
+
+        createCloud();
+    </script>
+</body>
+</html>
+
